@@ -5,7 +5,6 @@ import { TimelineSection } from "@/components/timeline-2";
 import CallToAction from "@/components/call-to-action";
 import FooterSection from "@/components/footer";
 import FeaturesSection from "@/components/features-section";
-import { Chart1 } from "@/components/chart-1";
 // import { div } from "framer-motion/client";
 // import Image from "next/image";
 
@@ -18,7 +17,6 @@ export default function Home() {
       <FeaturesSection />
       <TimelineSection />
       <CallToAction />
-      {/* <Chart1 /> */}
       <FooterSection />
     
     </div>

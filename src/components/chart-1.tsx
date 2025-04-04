@@ -33,7 +33,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function Chart1() {
+export function Component() {
   return (
     <Card>
       <CardHeader>
@@ -51,13 +51,13 @@ export function Chart1() {
             }}
           >
             <CartesianGrid vertical={false} />
-            <XAxis
+            {/* <XAxis
               dataKey="month"
               tickLine={false}
               axisLine={false}
               tickMargin={8}
               tickFormatter={(value) => value.slice(0, 3)}
-            />
+            /> */}
             <ChartTooltip
               cursor={false}
               content={<ChartTooltipContent hideLabel />}
@@ -72,14 +72,14 @@ export function Chart1() {
           </LineChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
+      {/* <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 font-medium leading-none">
           Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
         </div>
         <div className="leading-none text-muted-foreground">
           Showing total visitors for the last 6 months
         </div>
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   )
 }

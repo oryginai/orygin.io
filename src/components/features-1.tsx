@@ -124,7 +124,7 @@ export default function Features() {
                         
                         <motion.div variants={cardVariants} whileHover={{ y: -8, transition: { type: "spring", stiffness: 400 } }}>
                             <Card className="group shadow-zinc-950/5 transition-all duration-300 hover:shadow-lg">
-                                <CardHeader className="pb-3">
+                                <CardHeader className="">
                                     <motion.div 
                                         variants={decoratorVariants}
                                         initial="initial"
@@ -133,7 +133,7 @@ export default function Features() {
                                             <Brain className="size-6" aria-hidden />
                                         </CardDecorator>
                                     </motion.div>
-                                    <h3 className="mt-6 font-medium text-[#ff0000]">Intelligent</h3>
+                                    <h3 className="mt-6 text-xl font-medium text-[#ff0000]">Intelligent</h3>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-sm">From automating customer support to managing workflows, replace large teams and handle tasks with efficienctly.</p>
@@ -143,7 +143,7 @@ export default function Features() {
 
                         <motion.div variants={cardVariants} whileHover={{ y: -8, transition: { type: "spring", stiffness: 400 } }}>
                             <Card className="group shadow-zinc-950/5 transition-all duration-300 hover:shadow-lg">
-                                <CardHeader className="pb-3">
+                                <CardHeader className="pb-0">
                                     <motion.div 
                                         variants={decoratorVariants}
                                         initial="initial"
@@ -152,7 +152,7 @@ export default function Features() {
                                             <Settings2 className="size-6" aria-hidden />
                                         </CardDecorator>
                                     </motion.div>
-                                    <h3 className="mt-6 font-medium text-[#ff0000]">Autonomous Business Systems</h3>
+                                    <h3 className="mt-6 text-xl font-medium text-[#ff0000]">Autonomous Systems</h3>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-sm">AI-driven systems that seamlessly integrate into your operations—sales, analytics, and beyond.</p>
@@ -162,7 +162,7 @@ export default function Features() {
 
                         <motion.div variants={cardVariants} whileHover={{ y: -8, transition: { type: "spring", stiffness: 400 } }}>
                             <Card className="group shadow-zinc-950/5 transition-all duration-300 hover:shadow-lg">
-                                <CardHeader className="pb-3">
+                                <CardHeader className="pb-0">
                                     <motion.div 
                                         variants={decoratorVariants}
                                         initial="initial"
@@ -171,7 +171,7 @@ export default function Features() {
                                             <Sparkles className="size-6" aria-hidden />
                                         </CardDecorator>
                                     </motion.div>
-                                    <h3 className="mt-6 font-medium text-[#ff0000]">Custom for You</h3>
+                                    <h3 className="mt-6 text-xl font-medium text-[#ff0000]">Custom for You</h3>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-sm">No matter your industry, we craft tailor-made AI solutions to solve complex problems, and unlock new possibilities.</p>
