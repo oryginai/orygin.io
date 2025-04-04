@@ -158,7 +158,7 @@ export default function ContentSection() {
                             }}
                             className="relative mt-6 sm:mt-0">
                             <div className="bg-linear-to-b aspect-67/34 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
-                                <Image src="/graph2.png" className="hidden rounded-[15px] dark:block" alt="payments illustration dark" width={1200} height={1200} />
+                                <Image src="/graph.png" className="hidden rounded-[15px] dark:block" alt="payments illustration dark" width={1200} height={1200} />
                                 {/* <Component /> */}
                             </div>
                         </AnimatedGroup>
