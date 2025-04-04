@@ -1,6 +1,6 @@
 import HeroSection from "@/components/hero-section";
 import ContentSection from "@/components/content-7";
-import Features from "@/components/features-1";
+// import Features from "@/components/features-1";
 import { TimelineSection } from "@/components/timeline-2";
 import CallToAction from "@/components/call-to-action";
 import FooterSection from "@/components/footer";
@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <ContentSection />
-      <Features />
+      {/* <Features /> */}
       <FeaturesSection />
       <TimelineSection />
       <CallToAction />
